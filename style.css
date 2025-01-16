@@ -1,0 +1,60 @@
+body {
+  background:antiquewhite;
+}
+p {
+  color: burlywood;
+}
+
+
+h1 {
+  color: cadetblue; 
+  border-style: dashed; 
+  text-decoration: overline; 
+}
+
+h2 { color: cadetblue; 
+text-decoration: underline;}
+
+
+h3 { 
+  text-decoration: underline;
+  color: cadetblue; }
+
+h4 { color: cadetblue; }
+
+h5 { 
+  color: burlywood; 
+  text-decoration-line: underline}
+
+img { 
+  float:right;
+  width: 50%;
+  margin: 5%;
+  border-style: dotted
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.menu-card {
+border-style:double;
+flex-grow: 1;
+border-color: cadetblue;
+  
+}
+
+.image {
+display: flex;
+justify-content: center;
+
+}
+
+.info {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+  
+}
